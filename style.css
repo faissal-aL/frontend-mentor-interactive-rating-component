@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/*   font name : Overpass   */
+body{
+    font-family: overpass;
+    color: white;
+    background-color: hsl(216, 12%, 8%);
+}
+#rating , #thanks{
+    border-radius: 20px;
+    background: hsl(213, 19%, 18%);
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+#thanks{
+    display: none;
+    text-align: center;
+}
+#submit{   
+    margin-top: 30px;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+     font-family: overpass;
+    color: white;
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    height: 40px;
+    border-radius: 20px;
+}
+#submit:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+#star{
+    padding: 10px;
+    background-color:hsl(214, 19%, 23%);
+    border-radius: 30px;
+}
+span{
+    display: inline-flex;
+    flex :auto;
+    width: 45px;
+    height: 45px;
+    margin:9px;
+    margin-bottom: -5px;
+    margin-top: 15px;
+    border-radius: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:hsl(214, 19%, 23%); 
+}
+#one{
+    margin-left: 0px;
+}
+#five{
+    margin-right: 0px;
+}
+span:hover{
+    background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+p{
+    color:  hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+#thanksrating{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 190px;
+    height: 25px;
+    padding-top: 5px;
+    background-color: hsl(214, 19%, 23%); 
+    color:hsl(25, 100%, 60%); ;
+}
