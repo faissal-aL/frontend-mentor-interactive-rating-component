@@ -15,12 +15,14 @@ possibleRatings.forEach(function(e) {
         let arr = possibleRatings.filter(l => l != e);
         e.style.backgroundColor = 'hsl(25, 97%, 53%)';
         arr.forEach(l => l.style.backgroundColor ='hsl(214, 19%, 23%)');
-        ratingValue = e.innerHTML;      
+        ratingValue = e.innerHTML;   
+        submit.addEventListener("click", function(){   
+            rating.style.display ='none';
+            thanks.style.display ='block';
+            thanksrating.innerHTML = 'You Selected '+ratingValue+' out of 5';
+        })   
     });
 });
 
-submit.addEventListener("click", function(){   
-    rating.style.display ='none';
-    thanks.style.display ='block';
-    thanksrating.innerHTML = 'You Selected '+ratingValue+' out of 5';
-})
+
+
